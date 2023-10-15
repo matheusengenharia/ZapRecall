@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    --cor-fundo: #FB6B6B;
+    --cor-fundo-card: #ffffd4;
+    --cor-nao-lemrei: #FF3030;
+    --cor-quase-nao-lembrei: #ff922e;
+    --cor-zap: #2fbe34;
+    --preto: #333333;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fundo);
+    color: var(--preto);
+    font-family: 'Recursive', sans-serif;
+}
